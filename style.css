@@ -57,6 +57,13 @@ ul{
 	list-style: circle;
 	list-style-position: inside;
 }
+
+.content-inner{
+	background: #eee;
+	min-height: 100px;
+	width: 100%;
+}
+
 .info{
 	float: left;
 	width:75%;
@@ -80,3 +87,23 @@ ul{
 	float: right;
 	width: 25%;
 }
+
+.tabs a span{
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span.active{
+	background: #eee;
+}
+
+.content-inner input{
+	margin-top: 40px;
+}
+
+
